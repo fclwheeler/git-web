@@ -1,0 +1,20 @@
+@font-face{
+	font-family: 'Arimo-Bold';
+	font-weight: 700;
+	font-style: normal;
+	src: url('../fonts/Arimo-Bold.woff2') format('woff2'), url('../fonts/Arimo-Bold.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'Arimo-Regular';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../fonts/Arimo-Regular.woff2') format('woff2'), url('../fonts/Arimo-Regular.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'BebasNeue-Regular';
+	font-weight: 400;
+	font-style: normal;
+	src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'), url('../fonts/BebasNeue-Regular.woff') format('woff');
+}
