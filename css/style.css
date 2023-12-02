@@ -5,6 +5,10 @@ html{
 	box-sizing: inherit;
 }
 
+:root{
+	font-size: 62.5%;
+}
+
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
 }
@@ -33,13 +37,15 @@ body{
 
 .header .container{
 	padding: 15.32px 15px 0 15px;
-}
-
-.header__inner{	
 	min-width: 32.81px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.header button{
+	background: none;
+	border: 0;
 }
 
 .main{
