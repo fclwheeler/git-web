@@ -55,7 +55,7 @@ body{
 
 .main{
 	margin: 25.35px 15px 0 15px;
-	background-image: url('../images/bg-slider.png');
+	background-image: url('../images/bg-slider.jpeg');
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
@@ -129,22 +129,26 @@ body{
 	align-items: center;
 }
 
-.phoenix,
-.procbet,
-.eventure_master,
-.fresnel_350,
-.follow_spot {
-	background-color: #45403B;
-	width: 175px;
-	height: 185px;
+.phoenix__link-background,
+.procbet__link-background,
+.eventure_master__link-background,
+.fresnel_350__link-background,
+.follow_spot__link-background {
+	background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+	min-width: 175px; /*175px*/
+	min-height: 185px; /*185px*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.phoenix__link-img{
-	margin: 30.03px 33.65px 25.76px 33.65px;
-}
-
+.phoenix__link-img,
 .procbet__link-img{
-	margin: 35.71px 37.35px 37.91px 36.71px;
+	/*margin: 30.03px 33.65px 25.76px 33.65px;*/
+	/*margin: 35.71px 37.35px 37.91px 36.71px;*/
+	width: 60%;
+	height: auto;
+	object-fit: contain;
 }
 
 .phoenix__link,
@@ -169,7 +173,7 @@ body{
 	font-weight: 700;
 	letter-spacing: -0.35px;
 	text-transform: uppercase;
-	padding-top: 15px;
+	margin-top: 15px;
 }
 
 .catalogue__big-line{
@@ -209,11 +213,15 @@ body{
 }
 
 .eventure_master__link-img{
-	margin: 43.16px 18.48px 44.59px 17.17px;
+	width: 75%;
+	height: auto;
+	object-fit: contain;
 }
 
 .fresnel_350__link-img{
-	margin: 40.59px 32px 33.74px 26.57px;
+	width: 65%;
+	height: auto;
+	object-fit: contain;
 }
 
 .catalogue__item4 {
@@ -225,7 +233,9 @@ body{
 }
 
 .follow_spot__link-img{
-	margin: 33.91px 37.12px 24.36px 34.57px;
+	width: 60%;
+	height: auto;
+	object-fit: contain;
 }
 
 .view_catalogue {
