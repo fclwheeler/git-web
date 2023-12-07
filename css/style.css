@@ -37,7 +37,7 @@ body{
 	background-color: #1E1E1E;
 	font-family: 'Arimo-Regular', 'Arial', 'sans-serif';
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 1.6rem; /* 16px*/
 }
 
 .header .container{
@@ -75,7 +75,7 @@ body{
 	text-align: left;
 	font-family: 'Arimo-Bold';
 	line-height: 89.023%;
-	font-size: 40px;
+	font-size: 4rem; /*40px*/
 	font-weight: 700;
 	letter-spacing: -1.3692px;
 	text-transform: uppercase;
@@ -86,7 +86,7 @@ body{
 	text-align: right;
 	font-family: 'Arimo-Regular';
 	line-height: 120.523%;
-	font-size: 15px;
+	font-size: 1.5rem; /*15px*/
 	font-weight: 400;
 	letter-spacing: -0.6px;
 	text-transform: uppercase;
@@ -165,7 +165,7 @@ body{
 	text-align: left;
 	font-family: 'Arimo-Bold';
 	line-height: 89.023%;
-	font-size: 14px;
+	font-size: 1.4rem; /*14px*/
 	font-weight: 700;
 	letter-spacing: -0.35px;
 	text-transform: uppercase;
@@ -183,7 +183,7 @@ body{
 	text-align: left;
 	font-family: 'Arimo-Bold';
 	line-height: 100%;
-	font-size: 25px;;
+	font-size: 2.5rem; /*25px*/
 	font-weight: 700;
 	letter-spacing: -0.625px;
 	text-transform: uppercase;
@@ -195,7 +195,7 @@ body{
 	text-align: justify;
 	font-family: 'Arimo-Regular';
 	line-height: 129.523%;
-	font-size: 16px;
+	font-size: 1.6rem; /*16px*/
 	font-weight: 400;
 	letter-spacing: -0.625px;
 	text-transform: none;
@@ -240,7 +240,7 @@ body{
 	text-align: left;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 29.83px;
+	font-size: 2.983rem; /*29.83px*/
 	font-weight: 400;
 	letter-spacing: -0.528px;
 	text-transform: uppercase;
@@ -268,7 +268,7 @@ body{
 	text-align: center;
 	font-family: 'Arimo-Bold';
 	line-height: 89.023%;
-	font-size: 49.86px;;
+	font-size: 4.986rem; /*49.86px*/
 	font-weight: 700;
 	letter-spacing: -1.273px;
 	text-transform: uppercase;
@@ -340,7 +340,7 @@ video{
 	text-align: center;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 7.815px;
+	font-size: 0.7815rem; /*7.815px*/
 	font-weight: 700;
 	text-transform: uppercase;
 	position: absolute;
@@ -377,7 +377,7 @@ video{
 	text-align: left;
 	font-family: 'Arimo-Bold';
 	line-height: 100%;
-	font-size: 25px;;
+	font-size: 2.5rem; /*25px*/
 	font-weight: 700;
 	letter-spacing: -0.625px;
 	text-transform: uppercase;
@@ -389,7 +389,7 @@ video{
 	text-align: justify;
 	font-family: 'Arimo-Regular';
 	line-height: 129.523%;
-	font-size: 16px;
+	font-size: 1.6rem; /*16px*/
 	font-weight: 400;
 	letter-spacing: -0.625px;
 	text-transform: none;
@@ -404,7 +404,7 @@ video{
 	text-align: right;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 20px;
+	font-size: 2rem; /*20px*/
 	font-weight: 400;
 	text-transform: uppercase;
 	margin: 40px 50px 0 0;
@@ -431,7 +431,7 @@ video{
 	text-align: left;
 	font-family: 'Arimo-Bold';
 	line-height: 100%;
-	font-size: 20px;
+	font-size: 2rem; /*20px*/
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 40px;
@@ -459,7 +459,7 @@ video{
 	text-align: left;
 	font-family: 'Arimo-Bold';
 	line-height: 100%;
-	font-size: 25px;
+	font-size: 2.5rem; /*25px*/
 	font-weight: 700;
 	letter-spacing: -0.625px;
 	text-transform: uppercase;
@@ -479,7 +479,7 @@ video{
 	text-align: left;
 	font-family: 'Arimo-Bold';
 	line-height: 100%;
-	font-size: 14px;
+	font-size: 1.4rem; /*14px*/
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 5.72px;
@@ -497,7 +497,7 @@ video{
     color: #000;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 20px;
+	font-size: 2rem; /*20px*/
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -506,7 +506,7 @@ video{
 	color: #CCC;
 	font-family: 'Arimo-Regular';
 	line-height: 129.523%;
-	font-size: 14px;
+	font-size: 1.4rem; /*14px*/
 	font-weight: 400;
 	text-transform: none;
 	padding-top: 22.17px;
@@ -529,7 +529,7 @@ video{
 	color: #A8A8A8;
 	font-family: 'Arimo-Regular';
 	line-height: 129.523%;
-	font-size: 16px;
+	font-size: 1.6rem; /*16px*/
 	font-weight: 400;
 	text-transform: none;
 }
@@ -538,7 +538,7 @@ video{
 	padding-top: 40.83px;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 30px;
+	font-size: 3rem; /*30px*/
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -552,7 +552,7 @@ video{
 	padding-top: 22px;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 30px;
+	font-size: 3rem; /*30px*/
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -584,7 +584,7 @@ video{
 	color: #A8A8A8;
 	font-family: 'Arimo-Regular';
 	line-height: 129.523%;
-	font-size: 14px;
+	font-size: 1.4rem; /*14px*/
 	font-weight: 400;
 	text-transform: none;
 }
