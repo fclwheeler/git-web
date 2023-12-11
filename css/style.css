@@ -119,7 +119,13 @@ body{
 .catalogue .container{
 	margin: 0 15px;
 }
-
+/*
+.container{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
 .catalogue__item1,
 .catalogue__item3 {
 	margin-top: 40px;
@@ -127,6 +133,8 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	/*flex-grow: 1;*/
+	/* .catalogue__item1>* */
 }
 
 .phoenix__link-background,
