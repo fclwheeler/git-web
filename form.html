@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel='stylesheet' href='css/normalize.css'>
+	<link rel='stylesheet' href='css/fonts.css'>
 	<link rel='stylesheet' href='css/form.css'>
     <title>Form</title>
 </head>
@@ -21,6 +22,60 @@
         </button>
     </div>
 </header>
+
+<main>
+	<section class="contact-us">
+		<div class="container">
+			<div class="background">
+				<div class="contact-us__title">
+					<h3>CONTACT FORM</h3>
+				</div>
+				<form action="https://httpbin.org/post" method="post">
+					<label for="name" class="enter_text">ENTER YOUR NAME *</label>
+					<input class="enter_style" type="text" id="name" name="name" placeholder="Ivan" required>
+
+					<label for="date-of-birth" class="enter_text">ENTER YOUR DATE OF BIRTH *</label>
+					<input class="enter_style" type="date" id="date-of-birth" name="date-of-birth" required>
+
+					<label class="enter_text">CHOOSE YOUR GENDER *</label>
+					<div class="gender_style">
+						<input class="radio-gender" type="radio" id="male" name="gender" value="male" required>
+						<label class="radio-men-text" for="male">MEN</label>
+						<input class="radio-gender" type="radio" id="female" name="gender" value="female">
+						<label class="radio-girl-text" for="female">GIRL</label>
+					</div>
+
+					<label for="password" class="enter_text">ENTER YOUR PASSWORD *</label>
+    				<input class="enter_style" type="password" id="password" name="password" placeholder="password" required>
+
+					<label for="e-mail" class="enter_text">ENTER YOUR E-MAIL *</label>
+					<input class="enter_style" type="text" id="e-mail" name="e-mail" placeholder="ivanov@mail.ru" required>
+
+					<label for="phone" class="enter_text">ENTER YOUR PHONE *</label>
+    				<input class="enter_style" type="tel" id="phone" name="phone" placeholder="+79123456789" required>
+
+					<label for="contact-time" class="enter_text">Convenient time for communication *</label>
+					<select class="contact-time-style" id="contact-time" name="contact-time" required>
+						<option value="">not selected</option>
+						<option value="morning">morning</option>
+						<option value="day">day</option>
+						<option value="evening">evening</option>
+						<option value="night">night</option>
+					</select>
+					<div class="buttoms">
+						<input class="send-btn" type="submit" value="SEND">
+
+						<input class="reset-btn" type="reset" value="RESET">
+					</div>
+					<label for="data-processing-agreement" class="enter_checkbox">
+						<input class="checkbox" type="checkbox" id="data-processing-agreement" name="data-processing-agreement" required>
+						Consent to the processing of personal data *
+					</label>
+				</form>
+			</div>
+		</div>
+	</section>
+</main>
 
 <footer class="footer">
 	<div class="container">
