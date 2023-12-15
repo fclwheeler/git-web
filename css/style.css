@@ -382,7 +382,7 @@ video{
 }
 
 .about-company .container{
-	margin: 0 15px;
+	margin: 40px 15px 0 15px;
 	position: relative;
 }
 
@@ -395,7 +395,7 @@ video{
 	font-weight: 700;
 	letter-spacing: -0.625px;
 	text-transform: uppercase;
-	margin: 40px 0 30.29px 0;
+	margin-bottom: 30.29px ;
 }
 
 .about-company__subtitle{
