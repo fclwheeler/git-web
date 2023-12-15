@@ -64,7 +64,7 @@ body{
 	padding: 0 15px;
 }
 
-.top-slider{
+.main .top-slider{
 	background-image: url('../images/bg-slider.jpeg');
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -73,7 +73,7 @@ body{
 	min-width: 360px;
 }
 
-.top-slider .background{
+.top-slider{
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 49.19%, rgba(0, 0, 0, 0.17) 56.21%, rgba(0, 0, 0, 0.58) 100%);
 }
 
