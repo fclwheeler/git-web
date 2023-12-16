@@ -496,6 +496,7 @@ video{
 }
 
 .enter_style{
+	color: #fff;
 	width: 100%;
 	background: rgba(255, 255, 255, 0);
 	border: none; 
