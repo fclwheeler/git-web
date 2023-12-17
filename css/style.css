@@ -56,9 +56,67 @@ body{
 .header .container{
 	padding-top: 15.32px;
 	min-width: 32.81px;
+}
+
+.header__line{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
+}
+
+.eng{
+	display: none;
+}
+
+.header__line2{
+	display: none;
+}
+@media (min-width: 744px){
+	.logo{
+		position: absolute;
+		left: 40%;
+	}
+	.eng{
+		display: block;
+		margin-left: 26px;
+
+		color: #FFF;
+		font-family: Inter;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		text-transform: uppercase;
+	}
+	.box-eng{
+		display: flex;
+		justify-content: left;
+		align-items: center;
+	}
+	.header__line2{
+		margin-top: 27px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.nav-item{
+		padding-right: 28px;
+
+		color: #FFF;
+		font-family: Inter;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		text-transform: uppercase;
+	}
+	.header__line2 a{
+		text-decoration: none;
+	}
+	.header__line2 .V{
+		padding-left: 10px;
+	}
 }
 
 .header button{
