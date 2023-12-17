@@ -541,11 +541,24 @@ video{
 	min-width: 360px;
 	min-height: 402.977px;
 }
+@media (min-width: 744px){
+	.contact-us .container{
+		min-width: 664px;
+		min-height: 308px;
+	}
+}
 
 .contact-us .background{
 	background: linear-gradient(180deg, #262626 30.46%, #3A3A3A 100%);
 	padding: 20px 15px 29px 15px;
 }
+@media (min-width: 744px){
+	.contact-us .background{
+		min-width: 664px;
+		min-height: 308px;
+	}
+}
+
 
 .contact-us__title{
 	color: #fff;
@@ -557,6 +570,17 @@ video{
 	letter-spacing: -0.625px;
 	text-transform: uppercase;
 	margin-bottom: 37px;
+}
+@media (min-width: 744px){
+	.form-left{
+		float: left;
+		width: 49%;
+	}
+	
+	.form-right{
+		float: right;
+		width: 49%;
+	}
 }
 
 .enter_style{
@@ -608,6 +632,22 @@ video{
 .contact-us__alert__link1,
 .contact-us__alert__link2{
 	color: #CCC;
+}
+
+@media (min-width: 744px){
+	.send-btn{
+		float: left;
+		width: 49%;
+	}	
+	
+	.contact-us__alert{
+		float: right;
+		width: 49%;
+		padding: 1.75% 0;
+	}
+	.contact-us__alert-text{
+		margin-top: 0;
+	}
 }
 
 .footer .container{
