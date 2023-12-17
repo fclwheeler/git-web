@@ -47,6 +47,12 @@ body{
 	padding: 0 15px;
 }
 
+@media (min-width: 744px){
+	.container{
+		padding: 0 40px;
+	}
+}
+
 .header .container{
 	padding-top: 15.32px;
 	min-width: 32.81px;
@@ -276,6 +282,16 @@ body{
 	position: absolute;
 	bottom: 16px;
 	right: 0;
+
+	width: 34.42px;
+	height: 34.42px;
+	flex-shrink: 0;
+}
+@media (min-width: 744px){
+	.catalogue__arrow__link-img{
+		width: 64px;
+		height: 64px;
+	}
 }
 
 .catalogue__short-line{
@@ -407,7 +423,13 @@ video{
 	font-weight: 700;
 	letter-spacing: -0.625px;
 	text-transform: uppercase;
-	margin-bottom: 30.29px ;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 744px){
+	.about-company__title{
+		margin-bottom: 40px;
+	}
 }
 
 .about-company__subtitle{
@@ -436,6 +458,9 @@ video{
 	.subtitle-right{
 		float: right;
 		width: 49%;
+	}
+	.subtitle__text2{
+		margin-bottom: 0;
 	}
 }
 
@@ -466,7 +491,18 @@ video{
 .learn-more__big-line{
 	margin-top: 21px;
 	border-bottom: 1px solid #B6B6B6;
-	min-width: 100%; /**/
+	min-width: 100%;
+	margin-bottom: 40px;
+}
+
+@media (min-width: 744px){
+	.learn-more__media{
+		float: right;
+		width: 49%;
+	}
+	.learn-more__arrow__link{
+		margin-top: 0;
+	}
 }
 
 /*.logo-brands .container{
@@ -482,6 +518,12 @@ video{
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 40px;
+}
+
+@media (min-width: 744px){
+	.logo-brands__text{
+		margin-top: 93px;
+	}
 }
 
 .logo-brands__images {
@@ -581,10 +623,10 @@ video{
 	font-size: 1.6rem; /*16px*/
 	font-weight: 400;
 	text-transform: none;
+	margin-bottom: 41px;
 }
 
 .contacts_e-mail{
-	margin-top: 41px;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
 	font-size: 3rem; /*30px*/
@@ -610,20 +652,105 @@ video{
 	text-decoration: none;
 	color: #fff;
 }
+@media (min-width: 744px){
+	.email-tel{
+		display: flex;
+	}
+	.contacts_e-mail{
+		padding-right: 91px;
+	}
+	.contacts_number{
+		margin-top: 0;
+	}
+}
 
 .contacts_messenger{
 	display: flex;
 	justify-content: left;
 	align-items: center;
+	margin-top: 41px;
 }
 
 .contacts_facebook,
 .contacts_instagram,
 .contacts_youtube,
-.contacts_telegram,
-.contacts_vkontakte{
-	padding-top: 40px;
+.contacts_telegram{
 	padding-right: 30px;
+}
+@media (min-width: 744px){
+	.contacts_facebook,
+	.contacts_instagram,
+	.contacts_youtube,
+	.contacts_telegram{
+		padding-right: 28px;
+	}
+}
+
+.catalogue-info{
+	display: none;
+}
+@media (min-width: 744px){
+	.catalogue-title,
+	.info-title{	
+		text-align: justify;
+		color: #A8A8A8;
+		font-family: 'Arimo-Regular';
+		line-height: 129.523%;
+		font-size: 1.6rem; /*16px*/
+		font-weight: 400;
+		text-transform: none;
+	}
+	.catalogue-info{
+		color: #fff;
+		font-style: normal;
+		font-family: 'BebasNeue-Regular';
+		line-height: 82.523%;
+		font-size: 2rem; /*20px*/
+		font-weight: 400;
+		text-transform: uppercase;
+
+		display: grid;
+		grid-template-columns: auto 1fr;
+		gap: 60px;
+
+		margin-top: 51px;
+	}
+	.info__inner12{
+		display: grid;
+		grid-template-rows: 7% auto;
+		grid-row-gap: 41px;
+	}
+	.info__inner{
+		display: grid;
+		grid-template-rows: repeat(7, auto);
+		grid-row-gap: 20px;
+		max-width: 110px;
+	}
+	.catalogue-inner{
+		display: grid;
+		grid-template-rows: 7% auto;
+		grid-row-gap: 41px;
+	}
+	.catalogue__inner12{
+		display: grid;
+		grid-template-columns: 135px 115px;
+		grid-column-gap: 40px;
+	}
+	.catalogue__inner1{
+		display: grid;
+		grid-template-rows: repeat(7, auto);
+		grid-row-gap: 20px;
+	}
+	.catalogue__inner2{
+		display: grid;
+		grid-template-rows: repeat(7, auto);
+		grid-row-gap: 20px;
+	}
+
+	.catalogue-info a{
+		text-decoration: none;
+		color: #fff;
+	}
 }
 
 .contacts_2023{
