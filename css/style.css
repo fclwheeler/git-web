@@ -722,7 +722,7 @@ video{
 	}
 	.info__inner{
 		display: grid;
-		grid-template-rows: repeat(7, auto);
+		grid-template-rows: repeat(7, 2rem);
 		grid-row-gap: 20px;
 		max-width: 110px;
 	}
@@ -738,12 +738,12 @@ video{
 	}
 	.catalogue__inner1{
 		display: grid;
-		grid-template-rows: repeat(7, auto);
+		grid-template-rows: repeat(7, 2rem);
 		grid-row-gap: 20px;
 	}
 	.catalogue__inner2{
 		display: grid;
-		grid-template-rows: repeat(7, auto);
+		grid-template-rows: repeat(7, 2rem);
 		grid-row-gap: 20px;
 	}
 
