@@ -44,10 +44,11 @@ body{
 	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0 15px;
 }
 
 .header .container{
-	padding: 15.32px 15px 0 15px;
+	padding-top: 15.32px;
 	min-width: 32.81px;
 	display: flex;
 	justify-content: space-between;
@@ -61,7 +62,6 @@ body{
 
 .main .container{
 	margin-top: 25.35px;
-	padding: 0 15px;
 }
 
 .main .top-slider{
@@ -130,7 +130,6 @@ body{
 
 .catalogue .container{
 	margin-top: 40px;
-	padding: 0 15px;
 }
 
 .catalogue__item1,
@@ -283,7 +282,6 @@ body{
 
 .video-about-the-company .container{
 	margin-top: 80px;
-	padding: 0 15px;
 }
 
 .the-company-title{
@@ -392,7 +390,6 @@ video{
 
 .about-company .container{
 	margin-top: 40px;
-	padding: 0 15px;
 	position: relative;
 }
 
@@ -446,9 +443,9 @@ video{
 	min-width: 100%; /**/
 }
 
-.logo-brands .container{
+/*.logo-brands .container{
 	padding: 0 15px;
-}
+}*/
 
 .logo-brands__text{
 	color: #fff;
@@ -473,7 +470,6 @@ video{
 
 .contact-us .container{
 	margin-top: 74px;
-	padding: 0 15px;
 	min-width: 360px;
 	min-height: 402.977px;
 }
@@ -548,7 +544,7 @@ video{
 
 .footer .container{
 	margin-top: 80px;
-	padding: 0px 15px 50px 15px;
+	padding-bottom: 50px;
 }
 
 .contacts{	
