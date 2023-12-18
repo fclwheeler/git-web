@@ -447,10 +447,8 @@ body{
 	.eventure_master__link-img,
 	.fresnel_350__link-img,
 	.follow_spot__link-img {
-	height: 80%;
-    width: 80%;
-	max-height: 50%;
-    max-width: 50%;
+	width: 38%;
+	height: 40%;
 	}
 }
 
