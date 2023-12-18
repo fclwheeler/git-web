@@ -41,7 +41,7 @@ body{
 }
 
 .container{
-	max-width: 1100px;
+	max-width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 15px;
@@ -49,6 +49,13 @@ body{
 @media (min-width: 744px){
 	.container{
 		padding: 0 40px;
+		/*min-width: 664px;*/
+	}
+}
+@media (min-width: 1440px){
+	.container{
+		padding: 0 120px;
+		min-width: 1200px;
 	}
 }
 
@@ -58,6 +65,11 @@ body{
 @media (min-width: 744px){
 	.header .container{
 		padding-top: 20.48px;
+	}
+}
+@media (min-width: 1440px){
+	.header .container{
+		padding-top: 28px;
 	}
 }
 
@@ -265,7 +277,7 @@ body{
 	background-color: #fff;
 	opacity: 1;
 }
-@media (min-width: 744px){
+@media ((min-width: 744px) and (max-width: 1440px)){
 	.main .top-slider{
 		min-width: 664px;
 		min-height: 755.768px;
@@ -292,6 +304,60 @@ body{
 		width: 8px;
 		height: 8px;
 		margin-right: 20.6px;
+	}
+}
+
+@media (min-width: 1440px){
+	.main .top-slider{
+		height: 561px;
+		flex-shrink: 0;
+	}
+	.slick-arrow{
+		padding-left: 33.62px;
+		border: none;
+		position: absolute;
+		background: transparent;
+	}
+	.slick-prev{
+		margin-right: 17.5px;
+		top: 87.6%;
+		left: 0;
+	}
+	.slick-next{
+		bottom: 5%;
+		left: 7%;
+	}
+
+	.top-slider__item{
+		position: relative;
+	}
+	.top-slider__title{
+		margin-top: 320px;
+		padding-left: 33.62px;
+		padding-right: 257.29px;
+
+		font-size: 8rem; /*80px*/
+	}
+	.top-slider__subtitle{
+		position: absolute;
+		right: 0;
+		top: 75%;
+		font-size: 2.4rem; /*24px*/
+		padding-right: 40px;
+		margin-top: 0;
+	}
+	.top-slider .slick-dots{
+		position: absolute;
+		padding-left: 0;
+		padding-bottom: 0;
+		right: 42px;
+		bottom: 49px;
+	}
+	.slick-dots button{
+		width: 8px;
+		height: 8px;
+		margin-right: 0;
+		margin-left: 20px;
 	}
 }
 
