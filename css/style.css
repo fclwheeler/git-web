@@ -293,12 +293,9 @@ body{
 
 .catalogue__item1,
 .catalogue__item3 {
-	min-height: 211px;
-	max-height: 440px;
-
 	display: grid;
 	gap: 10px;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, minmax(176px, 1fr));
 	/*grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));*/
 	/*
 	display: flex;
@@ -306,6 +303,14 @@ body{
 	align-items: center; */
 	/*flex-grow: 1;*/
 	/* .catalogue__item1>* */
+}
+@media (min-width: 744px){
+	.catalogue__item1,
+	.catalogue__item3{
+		margin-top: 80px;
+		gap: 15px;
+		grid-template-columns: repeat(2, minmax(326px, auto));
+	}
 }
 
 .phoenix__link-background,
@@ -321,6 +326,20 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	object-fit: cover;
+	height: 80%;
+	width: 100%;
+	
+}
+@media (min-width: 744px){
+	.phoenix__link-background,
+	.procbet__link-background,
+	.eventure_master__link-background,
+	.fresnel_350__link-background,
+	.follow_spot__link-background {
+		min-width: 325px;
+		min-height: 344px;
+	}
 }
 
 .phoenix__link-img,
@@ -329,6 +348,8 @@ body{
 .fresnel_350__link-img,
 .follow_spot__link-img {
 	object-fit: contain;
+	width: 100%;
+	height: 60%;
 }
 
 .phoenix__link,
@@ -354,6 +375,15 @@ body{
 	letter-spacing: -0.35px;
 	text-transform: uppercase;
 	margin-top: 15px;
+}
+@media (min-width: 744px){
+	.phoenix__link-text,
+	.procbet__link-text,
+	.eventure_master__link-text,
+	.fresnel_350__link-text,
+	.follow_spot__link-text{
+		font-size: 2rem; /*20px*/
+	}
 }
 
 .catalogue__big-line{
@@ -424,12 +454,17 @@ body{
 	text-align: left;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 5.383rem; /*29.83px 53.83px*/
+	font-size: 5.4rem; /*29.83px 53.83px*/
 	font-weight: 400;
 	letter-spacing: -0.528px;
 	text-transform: uppercase;
 	padding-top: 8px;
 	display: inline-block;
+}
+@media (min-width: 744px){
+	.view_catalogue__link-text{
+		font-size: 9.8rem; /*97.924px*/
+	}
 }
 
 .catalogue__arrow__link-img{
@@ -469,6 +504,11 @@ body{
 	font-weight: 700;
 	letter-spacing: -1.273px;
 	text-transform: uppercase;
+}
+@media (min-width: 744px){
+	.the-company-title{
+		font-size: 9.4rem; /*94.183px*/
+	}
 }
 
 .top-slider-video{

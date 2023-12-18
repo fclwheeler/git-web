@@ -25,13 +25,13 @@ $(function(){
 	 	slidesToScroll: 1,
 	 	responsive: [
 		   	{
-		     	breakpoint: 1024,
+		     	breakpoint: 1,
 		     	settings: {
 
 		     	}
 		   	},
 		   	{
-		     	breakpoint: 640,
+		     	breakpoint: 1440,
 		     	settings: {
 		     		arrows: false
 		     	}
