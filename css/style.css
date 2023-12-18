@@ -98,6 +98,29 @@ body{
 		height: 49px;
 		flex-shrink: 0;
 	}
+}	
+@media (min-width: 1440px){
+	.logo{
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+	.logo::before,
+	.logo::after{
+		position: absolute;
+		content: "";
+		height: 1px;
+		width: 102px;
+		background-color: #B6B6B6;
+		top: 50%;
+	}
+	.logo::before {
+		left: -120px;
+	}
+
+	.logo::after {
+		right: -120px;
+	}
 }
 
 .box__img{
