@@ -295,22 +295,28 @@ body{
 .catalogue__item3 {
 	display: grid;
 	gap: 10px;
-	grid-template-columns: repeat(2, minmax(176px, 1fr));
-	/*grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));*/
-	/*
-	display: flex;
-	justify-content: space-between;
-	align-items: center; */
-	/*flex-grow: 1;*/
-	/* .catalogue__item1>* */
+	grid-template-columns: auto auto;
 }
 @media (min-width: 744px){
 	.catalogue__item1,
 	.catalogue__item3{
-		margin-top: 80px;
 		gap: 15px;
 		grid-template-columns: repeat(2, minmax(326px, auto));
 	}
+}
+
+.phoenix__link,
+.procbet__link,
+.eventure_master__link,
+.fresnel_350__link,
+.follow_spot__link,
+.view_catalogue__link{
+	text-decoration: none;
+	width: 100%;
+    display: grid;
+	grid-template-rows: auto auto;
+    align-items: center;
+	gap: 15px;
 }
 
 .phoenix__link-background,
@@ -319,17 +325,13 @@ body{
 .fresnel_350__link-background,
 .follow_spot__link-background {
 	background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
 	min-width: 175px;
 	min-height: 185px;
-	/*max-width: 387px;
-	max-height: 410px;*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	object-fit: cover;
-	height: 80%;
-	width: 100%;
-	
 }
 @media (min-width: 744px){
 	.phoenix__link-background,
@@ -347,18 +349,20 @@ body{
 .eventure_master__link-img,
 .fresnel_350__link-img,
 .follow_spot__link-img {
-	object-fit: contain;
-	width: 100%;
-	height: 60%;
+	max-height: 70%;
+    max-width: 70%;
 }
-
-.phoenix__link,
-.procbet__link,
-.eventure_master__link,
-.fresnel_350__link,
-.follow_spot__link,
-.view_catalogue__link{
-	text-decoration: none;
+@media (min-width: 744px){
+	.phoenix__link-img,
+	.procbet__link-img,
+	.eventure_master__link-img,
+	.fresnel_350__link-img,
+	.follow_spot__link-img {
+	height: 80%;
+    width: 80%;
+	max-height: 50%;
+    max-width: 50%;
+	}
 }
 
 .phoenix__link-text,
@@ -374,7 +378,6 @@ body{
 	font-weight: 700;
 	letter-spacing: -0.35px;
 	text-transform: uppercase;
-	margin-top: 15px;
 }
 @media (min-width: 744px){
 	.phoenix__link-text,
@@ -387,12 +390,13 @@ body{
 }
 
 .catalogue__big-line{
-	margin-top: 65px;
+	margin-top: 40px;
 	border-bottom: 1px solid #B6B6B6;
 	min-width: 360px;
 }
 
 .catalogue__title{
+	margin-top: 30.27px;
 	color: #fff;
 	text-align: left;
 	font-family: 'Arimo-Bold';
@@ -401,7 +405,6 @@ body{
 	font-weight: 700;
 	letter-spacing: -0.625px;
 	text-transform: uppercase;
-	margin-top: 30.27px;
 }
 
 .catalogue__subtitle{
@@ -418,6 +421,7 @@ body{
 @media (min-width: 744px){
 	.catalogue__subtitle{
 		width: 50%;
+		margin-top: 72px;
 	}
 }
 
@@ -428,18 +432,25 @@ body{
   	height: 100%;
   	object-fit: cover;
 }
+@media (min-width: 744px){
+	.catalogue__image{
+		margin-top: 40.74px;
+	}
+}
 
 .catalogue__item4 {
-	margin-top: 54px;
+	margin-top: 30px;
 	min-height: 211px;
 	max-height: 440px;
-    gap: 10px;
 	display: grid;
+	gap: 10px;
 	grid-template-columns: repeat(2, 1fr);
-	/*	min-width: 210.63px;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;*/
+}
+@media (min-width: 744px){
+	.catalogue__item4 {
+		margin-top: 40.21px;
+		gap: 15px;
+	}
 }
 
 .view_catalogue {
@@ -480,18 +491,24 @@ body{
 	.catalogue__arrow__link-img{
 		width: 64px;
 		height: 64px;
+		bottom: 30px;
 	}
 }
 
 .catalogue__short-line{
 	position: absolute;
-	bottom: -5px;
+	bottom: 0;
 	border-bottom: 1px solid #B6B6B6;
 	min-width: 100%;
 }
 
 .video-about-the-company .container{
 	margin-top: 80px;
+}
+@media (min-width: 744px){
+	.video-about-the-company .container{
+		margin-top: 100px;
+	}
 }
 
 .the-company-title{
@@ -524,6 +541,12 @@ body{
 	position: relative;
 	overflow: hidden;
 }
+@media (min-width: 744px){
+	.video{
+		width: 664.403px;
+		height: 373.727px;
+	}
+}
 
 video{
 	height: 100%;
@@ -550,8 +573,8 @@ video{
 }
 
 .video__overlay{
-	width: 35px;
-	height: 30px;
+	width: 30px;
+	height: 35px;
 	border: 17.5px solid transparent;
 	content: '';
 	position: absolute;
@@ -562,6 +585,22 @@ video{
 	border-left-width: 30px;
 	margin-left: 12px;
 }
+@media (min-width: 744px){
+	.video__overlay{
+		width: 55px;
+		height: 65px;
+		border: 35px solid transparent;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		border-left-color: #fff;
+		border-left-width: 50px;
+		margin-left: 12px;
+	}
+}
+
 
 .top-slider-video .js-video{
 	position: relative;
@@ -576,7 +615,7 @@ video{
 	text-align: center;
 	font-family: 'BebasNeue-Regular';
 	line-height: 82.523%;
-	font-size: 0.7815rem; /*7.815px*/
+	font-size: 1rem; /*7.815px 10.815px*/
 	font-weight: 700;
 	text-transform: uppercase;
 	position: absolute;
@@ -584,6 +623,13 @@ video{
 	left: calc(50% + 1.2rem); /*52%*/
 	cursor: pointer;
 	transition: all .2s ease;
+}
+@media (min-width: 744px){
+	.js-play{
+		font-size: 2rem; /*20px*/
+		top: calc(50% + 2.5rem);
+		left: calc(50% + 1rem);
+	}
 }
 
 .js-play.hide {
@@ -597,6 +643,12 @@ video{
 	padding-bottom: 19px;
 	margin-top: -42px;
 }
+@media (min-width: 744px){
+	.top-slider-video .slick-dots{
+		margin-top: -61px;
+		padding-right: 15px;
+	}
+}
 
 .top-slider-video .slick-dots .slick-active button {
 	background-color: #fff;
@@ -606,6 +658,11 @@ video{
 .about-company .container{
 	margin-top: 40px;
 	position: relative;
+}
+@media (min-width: 744px){
+	.about-company .container{
+		margin-top: 41px;
+	}
 }
 
 .about-company__title{
@@ -619,7 +676,6 @@ video{
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
-
 @media (min-width: 744px){
 	.about-company__title{
 		margin-bottom: 40px;
@@ -642,6 +698,7 @@ video{
 .subtitle__text2{
 	margin-bottom: 25px;
 }
+
 
 @media (min-width: 744px){
 	.subtitle-left{
@@ -713,10 +770,32 @@ video{
 	text-transform: uppercase;
 	margin-top: 40px;
 }
-
 @media (min-width: 744px){
 	.logo-brands__text{
 		margin-top: 93px;
+	}
+}
+
+.logo-anzhee__link-img{
+	width: 155px;
+	height: 48px;
+}
+.logo-eventure__link-img,
+.logo-phoenix__link-img,
+.logo-procbet__link-img{
+	width: 163px;
+	height: 53px;
+}
+@media (min-width: 744px){
+	.logo-anzhee__link-img{
+		width: 202px;
+		height: 63px;
+	}
+	.logo-eventure__link-img,
+	.logo-phoenix__link-img,
+	.logo-procbet__link-img{
+		width: 212px;
+		height: 69px;
 	}
 }
 
@@ -729,6 +808,13 @@ video{
 	gap: 44px;
     grid-template-columns: auto auto;
 }
+@media (min-width: 744px){
+	.logo-brands__images{
+		margin-top: 50px;
+		column-gap: 130px;
+		row-gap: 57px;
+	}
+}
 
 .contact-us .container{
 	margin-top: 74px;
@@ -739,6 +825,7 @@ video{
 	.contact-us .container{
 		min-width: 664px;
 		min-height: 308px;
+		margin-top: 93px;
 	}
 }
 
@@ -749,10 +836,10 @@ video{
 @media (min-width: 744px){
 	.contact-us .background{
 		min-width: 664px;
-		min-height: 308px;
+		min-height: 364px;
+		padding: 40px 30px 44px 31px;
 	}
 }
-
 
 .contact-us__title{
 	color: #fff;
@@ -765,6 +852,12 @@ video{
 	text-transform: uppercase;
 	margin-bottom: 37px;
 }
+@media (min-width: 744px){
+	.contact-us__title{
+		font-size: 4rem; /*40px*/
+	}
+}
+
 @media (min-width: 744px){
 	.form-left{
 		float: left;
@@ -794,6 +887,11 @@ video{
 	font-size: 1.4rem; /*14px*/
 	font-weight: 700;
 	text-transform: uppercase;
+}
+@media (min-width: 744px){
+	.enter_text{
+		font-size: 2rem; /*20px*/
+	}
 }
 
 .send-btn{
