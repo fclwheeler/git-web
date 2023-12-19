@@ -1514,3 +1514,23 @@ video{
 		bottom: 0;
 	}
 }
+.btn-up{
+	visibility: hidden;
+	height: 0;
+}
+@media (min-width: 1440px){
+	.info__inner12{
+		position: relative;
+	}
+	.btn-up{
+		visibility: visible;
+		height: auto;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.info__inner12 button{
+		background: none;
+		border: 0;
+	}
+}
