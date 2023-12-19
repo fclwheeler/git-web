@@ -325,7 +325,7 @@ body{
 	}
 	.slick-prev{
 		margin-right: 17.5px;
-		top: 89.6%;
+		top: 87.6%;
 		left: 0;
 	}
 	.slick-next{
@@ -422,6 +422,13 @@ body{
 	margin-top: 40px;
 	}
 }
+@media (min-width: 1440px){
+	.follow_spot__link,
+	.view_catalogue__link{
+	margin-top: 0;
+	}
+}
+
 
 .phoenix__link,
 .procbet__link,
@@ -471,6 +478,16 @@ body{
 		min-height: 344px;
 	}
 }
+@media (min-width: 1440px){
+	.phoenix__link-background,
+	.procbet__link-background,
+	.eventure_master__link-background,
+	.fresnel_350__link-background,
+	.follow_spot__link-background {
+		min-width: 387px;
+		min-height: 410px;
+	}
+}
 
 .phoenix__link-img,
 .procbet__link-img,
@@ -486,8 +503,22 @@ body{
 	.eventure_master__link-img,
 	.fresnel_350__link-img,
 	.follow_spot__link-img {
-	width: 38%;
-	height: 40%;
+		width: 38%;
+		height: 40%;
+		max-height: 45%;
+    	max-width: 45%;
+	}
+}
+@media (min-width: 1440px){
+	.phoenix__link-img,
+	.procbet__link-img,
+	.eventure_master__link-img,
+	.fresnel_350__link-img,
+	.follow_spot__link-img {
+		width: 60%;
+		height: 60%;
+		max-height: 70%;
+    	max-width: 70%;
 	}
 }
 
