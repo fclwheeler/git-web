@@ -913,6 +913,7 @@ video{
 		
 	}
 	.slick-next-video{
+		z-index: 1;
 		bottom: 1%;
 		left: 8%;
 	}
@@ -928,6 +929,22 @@ video{
 		position: relative;
 		margin-top: 40px;
 		top: 38px;
+
+		display: grid;
+		grid-template-rows: auto auto;
+		gap: 40px;
+	}
+}
+@media (min-width: 1440px){
+	.about-company .container{
+		position: relative;
+		margin-top: 40px;
+		top: 38px;
+
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: none;
+		gap: 204px;
 	}
 }
 
@@ -944,7 +961,8 @@ video{
 }
 @media (min-width: 744px){
 	.about-company__title{
-		margin-bottom: 40px;
+		margin-bottom: 0;
+		font-size: 4rem; /*40px*/
 	}
 }
 
@@ -1009,7 +1027,6 @@ video{
 	margin-top: 21px;
 	border-bottom: 1px solid #B6B6B6;
 	min-width: 100%;
-	margin-bottom: 40px;
 }
 
 @media (min-width: 744px){
@@ -1029,7 +1046,7 @@ video{
 }
 @media (min-width: 744px){
 	.logo-brands .container{
-		margin-top: 93px;
+		margin-top: 70.4px;
 		top: 38px;
 	}
 }
@@ -1042,7 +1059,6 @@ video{
 	font-size: 2rem; /*20px*/
 	font-weight: 700;
 	text-transform: uppercase;
-
 }
 
 
