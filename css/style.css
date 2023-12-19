@@ -1212,6 +1212,17 @@ video{
 		width: 49%;
 	}
 }
+@media (min-width: 1440px){
+	.form-left{
+		float: left;
+		width: 48%;
+	}
+	
+	.form-right{
+		float: right;
+		width: 48%;
+	}
+}
 
 .enter_style{
 	color: #fff;
@@ -1284,6 +1295,18 @@ video{
 		margin-top: 0;
 	}
 }
+@media (min-width: 1440px){
+	.send-btn{
+		float: left;
+		width: 48%;
+	}	
+	
+	.contact-us__alert{
+		float: right;
+		width: 48%;
+		padding: 1.75% 0;
+	}
+}
 
 .footer .container{
 	position: relative;
@@ -1294,6 +1317,11 @@ video{
 @media (min-width: 744px){
 	.footer .container{
 		top: 38px;
+	}
+}
+@media (min-width: 1440px){
+	.footer .container{
+		margin-top: 70.5px;
 	}
 }
 
@@ -1343,6 +1371,17 @@ video{
 	}
 	.contacts_number{
 		margin-top: 0;
+	}
+}
+@media (min-width: 1440px){
+
+	.email-tel{
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+	.contacts_e-mail{
+		padding-right: 0;
 	}
 }
 
@@ -1434,6 +1473,26 @@ video{
 		color: #fff;
 	}
 }
+@media (min-width: 1440px){
+	.contacts-left-right{
+		display: grid;
+		grid-template-columns: min-content auto;
+		gap: 133px;
+	}
+	.catalogue-info{
+		margin-top: 0;
+	}
+	.catalogue__inner12{
+		grid-column-gap: 71px;
+	}
+	.catalogue-info{
+		gap: 91px;
+	}
+	.contacts_messenger{
+		margin-top: 31px;
+	}
+
+}
 
 .contacts_2023{
 	margin-top: 50px;
@@ -1444,4 +1503,14 @@ video{
 	font-size: 1.4rem; /*14px*/
 	font-weight: 400;
 	text-transform: none;
+}
+@media (min-width: 1440px){
+	.contacts-left{
+		position: relative;
+	}
+	.contacts_2023{
+		/*margin-top: 54.25px;*/
+		position: absolute;
+		bottom: 0;
+	}
 }
