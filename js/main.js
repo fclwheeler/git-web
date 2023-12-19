@@ -25,14 +25,14 @@ $(function(){
 	 	dots: true,
 	 	slidesToShow: 1,
 	 	slidesToScroll: 1,
+		nextArrow: '<button type="button" class="slick-arrow-video slick-next-video"><img src="images/next-arrow.svg" alt="next-arrow-vider"></button>',
+		prevArrow: '<button type="button" class="slick-arrow-video slick-prev-video"><img src="images/prev-arrow.svg" alt="prev-arrow-video"></button>',
 	 	responsive: [
 		   	{
 		     	breakpoint: 1,
 		     	settings: {
 
-		     	}
-		   	},
-		   	{
+				},
 		     	breakpoint: 1440,
 		     	settings: {
 		     		arrows: false
