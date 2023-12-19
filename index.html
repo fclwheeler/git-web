@@ -249,21 +249,23 @@
 				<div class="contact-us__title">
 					<h3>CONTACT US</h3>
 				</div>
-				<form action="https://httpbin.org/post" method="post">
-					<div class="form-left">
-						<label for="name" class="enter_text">ENTER YOUR NAME *</label>
-						<input class="enter_style" type="text" id="name" name="name" required>
+				<div class="title-form-grid">
+					<form action="https://httpbin.org/post" method="post">
+						<div class="form-left">
+							<label for="name" class="enter_text">ENTER YOUR NAME *</label>
+							<input class="enter_style" type="text" id="name" name="name" required>
+						</div>
+						<div class="form-right">
+							<label for="e-mail" class="enter_text">ENTER YOUR E-MAIL *</label>
+							<input class="enter_style" type="text" id="e-mail" name="e-mail" required>
+						</div>
+						<label for="request" class="enter_text">ENTER REQUEST *</label>
+						<input class="enter_style" id="request" name="request" required>
+						<input class="send-btn" type="submit" value="SEND">
+					</form>
+					<div class="contact-us__alert">
+						<p class="contact-us__alert-text">By clicking subscribe I agree with <a class="contact-us__alert__link1" href="#">Terms of Use</a> and <a class="contact-us__alert__link2" href="#">Privacy Policy</a></p>
 					</div>
-					<div class="form-right">
-						<label for="e-mail" class="enter_text">ENTER YOUR E-MAIL *</label>
-						<input class="enter_style" type="text" id="e-mail" name="e-mail" required>
-					</div>
-					<label for="request" class="enter_text">ENTER REQUEST *</label>
-					<input class="enter_style" id="request" name="request" required>
-					<input class="send-btn" type="submit" value="SEND">
-				</form>
-				<div class="contact-us__alert">
-					<p class="contact-us__alert-text">By clicking subscribe I agree with <a class="contact-us__alert__link1" href="#">Terms of Use</a> and <a class="contact-us__alert__link2" href="#">Privacy Policy</a></p>
 				</div>
 			</div>
 		</div>
