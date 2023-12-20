@@ -892,7 +892,7 @@ video{
 
 .top-slider-video .slick-dots .slick-active button {
 	background-color: #fff;
-	opacity: 1; /*0.99*/
+	opacity: 0.99;
 }
 @media (min-width: 1440px){
 	.main .top-slider-video{
