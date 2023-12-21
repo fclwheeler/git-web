@@ -529,7 +529,7 @@ a:active {
 	transition: background 0.5s;
 }
 .catalogue__arrow__link:hover .catalogue__arrow__link-img{
-	background-color: darkblue;
+	background-color: #42AAFF;
 	transition: background 1s;
 }
 .catalogue__arrow__link:active .catalogue__arrow__link-img{
@@ -1150,13 +1150,13 @@ video{
 }
 
 .learn-more__arrow__link:hover .learn-more{
-	color: darkblue;
+	color: #42AAFF;
 	transition: color 1s;
 	/*color: #fff;
 	-webkit-text-stroke: 0.7px #FFED00;*/
 }
 .learn-more__arrow__link:hover .learn-more__arrow__link-img{
-	background-color: darkblue;
+	background-color: #42AAFF;
 	transition: background 1s;
 }
 
