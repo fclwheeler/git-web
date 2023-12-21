@@ -257,7 +257,10 @@ a:active {
 .header__line button:hover{
 	background-color: #000;
 	border: 1px solid #FFED00;
-	transition: border 0.5s;
+	/*transition: border 0.5s;*/
+	transform: scale(1.1) rotate(10deg);
+	box-shadow: 5px 5px 10px rgba(255, 255, 0, 0.5);
+	transition: border 0.5s, transform 0.5s, box-shadow 0.5s;
 }
 .header__line button:active {
 	background-color: #000;
@@ -273,7 +276,10 @@ a:active {
 .header__line2 button:hover{
 	color: #FFED00;
 	border: 1px solid #FFED00;
-	transition: color 1s, border 1.5s;
+	/*transition: color 1s, border 1.5s;*/
+	transform: scale(1.1) rotate(10deg);
+	box-shadow: 5px 5px 10px rgba(255, 255, 0, 0.5);
+	transition: border 1s, transform 1s, box-shadow 1s;
 }
 .header__line2 button:active {
 	color: olive;
@@ -1503,17 +1509,19 @@ video{
 	font-size: 2rem; /*20px*/
 	font-weight: 400;
 	text-transform: uppercase;
-
-	transition: 1s;
     cursor: pointer;
 }
 .send-btn:hover {
     background: #000; /* Цвет фона при наведении */
     color: #FFED00; /* Цвет текста при наведении */
+	transform: scale(1.05) rotate(2deg);
+	box-shadow: 5px 5px 10px rgba(255,255,0,0.5);
+	transition: background 1s, color 1s, transform 1s, box-shadow 1s;
 }
 .send-btn:active {
     background: red; /* Цвет фона при наведении */
     color: #000; /* Цвет текста при наведении */
+	transition: 1s;
 }
 
 .contact-us__alert-text{
@@ -1841,8 +1849,11 @@ video{
 		.up__img {
 			background-color: #000;
 			border: 1px solid #FFED00;
-			transition: background 1s;
-			transition: border 1s;
+			/* transition: background 1s;
+			transition: border 1s; */
+			transform: scale(1.1) rotate(10deg);
+			box-shadow: 5px 5px 10px rgba(255,255,0,0.5);
+			transition: background 1s, border 1s, transform 1s, box-shadow 1s;
 		}
 	}
 	.btn-up:active{
