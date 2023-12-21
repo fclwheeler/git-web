@@ -123,6 +123,10 @@ body{
 .radio-gender{
 	margin-right: 5px;
 }
+.radio-gender:checked + label {
+	color: red; 
+	font-weight: bold;
+}
 
 .radio-men-text{
 	margin-right: 30px;
@@ -326,6 +330,14 @@ body{
 	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.logo_footer{
+	margin-bottom: 30px;
+}
+.logo_footer__img:hover {
+	transform: rotate(30deg) scale(1.5) skew(10deg, 10deg);
+	transition: transform 0.5s;
 }
 
 .contacts{	
