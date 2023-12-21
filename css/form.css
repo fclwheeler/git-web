@@ -335,6 +335,12 @@ body{
 .logo_footer{
 	margin-bottom: 30px;
 }
+
+.logo_footer__img{
+	transform: scale(1) rotate(0deg);
+	box-shadow: none;
+	transition: border 0.5s, transform 0.5s, box-shadow 0.5s;
+}
 .logo_footer__img:hover {
 	transform: rotate(30deg) scale(1.5) skew(10deg, 10deg);
 	transition: transform 0.5s;
