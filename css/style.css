@@ -64,13 +64,16 @@ a{
 }
 a:focus {
 	color: red;
+	transition: color 1s;
 }
 a:hover{
 	color: #FFED00;
+	transition: color 1s;
 }
 a:active {
 	/*border: 2px solid red;*/
 	color: olive;
+	transition: color 1s;
 }
 
 
@@ -249,27 +252,33 @@ a:active {
 .header__line button:focus {
 	background-color: #000;
 	border: 1px solid red;
+	transition: border 0.5s;
 }
 .header__line button:hover{
 	background-color: #000;
 	border: 1px solid #FFED00;
+	transition: border 0.5s;
 }
 .header__line button:active {
 	background-color: #000;
 	border: 1px solid olive;
+	transition: border 0.5s;
 }
 
 .header__line2 button:focus {
 	color: red;
 	border: 1px solid red;
+	transition: color 1s, border 1.5s;
 }
 .header__line2 button:hover{
 	color: #FFED00;
 	border: 1px solid #FFED00;
+	transition: color 1s, border 1.5s;
 }
 .header__line2 button:active {
 	color: olive;
 	border: 1px solid olive;
+	transition: color 1s, border 1.5s;
 }
 
 .main .container{
@@ -496,31 +505,37 @@ a:active {
 .view_catalogue__link:focus{
 	.view_catalogue__link-text{
 		color: red;
+		transition: color 1s;
 	}
 }
 .view_catalogue__link:hover{
 	.view_catalogue__link-text{
 		color: #FFED00;
+		transition: color 1s;
 	}
 }
 .view_catalogue__link:active{
 	.view_catalogue__link-text{
 		color: olive;
+		transition: color 1s;
 	}
 }
 .catalogue__arrow__link:focus{
 	.catalogue__arrow__link-img{
 		background-color: red;
+		transition: background 0.5s;
 	}
 }
 .catalogue__arrow__link:hover{
 	.catalogue__arrow__link-img{
 		background-color: darkblue;
+		transition: background 1s;
 	}
 }
 .catalogue__arrow__link:active{
 	.catalogue__arrow__link-img{
 		background-color: darkslateblue;
+		transition: background 0.5s;
 	}
 }
 
@@ -652,6 +667,7 @@ a:active {
 	.fresnel_350__link-text,
 	.follow_spot__link-text{
 		color: red;
+		transition: color 1s;
 	}
 }
 
@@ -666,6 +682,7 @@ a:active {
 	.fresnel_350__link-text,
 	.follow_spot__link-text{
 		color: #FFED00;
+		transition: color 1s;
 	}	
 }
 .phoenix__link:active,
@@ -679,6 +696,7 @@ a:active {
 	.fresnel_350__link-text,
 	.follow_spot__link-text{
 		color: olive;
+		transition: color 1s;
 	}
 }
 
@@ -1144,29 +1162,35 @@ video{
 .learn-more__arrow__link:focus{
 	.learn-more{
 		color: red;
+		transition: color 1s;
 	}
 	.learn-more__arrow__link-img{
 		background-color: red;
+		transition: background 0.5s;
 	}
 }
 .learn-more__arrow__link:hover{
 	.learn-more{
 		color: darkblue;
+		transition: color 1s;
 		/*color: #fff;
 		-webkit-text-stroke: 0.7px #FFED00;*/
 	}
 	.learn-more__arrow__link-img{
 		background-color: darkblue;
+		transition: background 1s;
 	}
 }
 .learn-more__arrow__link:active{
 	.learn-more{
 		color: darkslateblue;
+		transition: color 0.5s;
 		/*color: black;
 		-webkit-text-stroke: 0.7px #FFED00;*/
 	}
 	.learn-more__arrow__link-img{
 		background-color: darkslateblue;
+		transition: background 0.5s;
 	}
 }
 
@@ -1297,27 +1321,47 @@ video{
 		gap: 60px;
 	}
 }
-
 .logo-anzhee__link:focus,
 .logo-eventure__link:focus,
 .logo-phoenix__link:focus,
 .logo-procbet__link:focus{
-	background-color: #000;
-	border: 1px solid red;
+	.logo-anzhee__link-img,
+	.logo-eventure__link-img,
+	.logo-phoenix__link-img,
+	.logo-procbet__link-img{
+		background-color: #000;
+		border: 1px solid red;
+		transition: background 0.5s;
+		transition: border 0.5s;
+	}
 }
 .logo-anzhee__link:hover,
 .logo-eventure__link:hover,
 .logo-phoenix__link:hover,
 .logo-procbet__link:hover{
-	background-color: #000;
-	border: 1px solid #FFED00;
+	.logo-anzhee__link-img,
+	.logo-eventure__link-img,
+	.logo-phoenix__link-img,
+	.logo-procbet__link-img{
+		background-color: #000;
+		border: 1px solid #FFED00;
+		transition: background 1s;
+		transition: border 1s;
+	}
 }
 .logo-anzhee__link:active,
 .logo-eventure__link:active,
 .logo-phoenix__link:active,
 .logo-procbet__link:active{
-	background-color: #000;
-	border: 1px solid olive;
+	.logo-anzhee__link-img,
+	.logo-eventure__link-img,
+	.logo-phoenix__link-img,
+	.logo-procbet__link-img{
+		background-color: #000;
+		border: 1px solid olive;
+		transition: background 0.5s;
+		transition: border 0.5s;
+	}
 }
 
 .contact-us .container{
@@ -1450,7 +1494,6 @@ video{
 	width: 100%;
     height: 57.364px;
     background: #FFED00;
-    color: black;
     text-align: center;
     border: none;
 
@@ -1460,6 +1503,17 @@ video{
 	font-size: 2rem; /*20px*/
 	font-weight: 400;
 	text-transform: uppercase;
+
+	transition: 1s;
+    cursor: pointer;
+}
+.send-btn:hover {
+    background: #000; /* Цвет фона при наведении */
+    color: #FFED00; /* Цвет текста при наведении */
+}
+.send-btn:active {
+    background: red; /* Цвет фона при наведении */
+    color: #000; /* Цвет текста при наведении */
 }
 
 .contact-us__alert-text{
@@ -1617,6 +1671,7 @@ video{
 	.contacts_telegram__link-img,
 	.contacts_vkontakte__link-img{
 		border: 1px solid red;
+		transition: border 1.5s;
 	}
 }
 .contacts_facebook__link:hover,
@@ -1630,6 +1685,7 @@ video{
 	.contacts_telegram__link-img,
 	.contacts_vkontakte__link-img{
 		border: 1px solid #FFED00;
+		transition: border 1.5s;
 	}
 }
 .contacts_facebook__link:active,
@@ -1643,6 +1699,7 @@ video{
 	.contacts_telegram__link-img,
 	.contacts_vkontakte__link-img{
 		border: 1px solid olive;
+		transition: border 1.5s;
 	}
 }
 
@@ -1776,18 +1833,24 @@ video{
 		.up__img {
 			background-color: #000;
 			border: 1px solid red;
+			transition: background 1s;
+			transition: border 1s;
 		}
 	}
 	.btn-up:hover{
 		.up__img {
 			background-color: #000;
 			border: 1px solid #FFED00;
+			transition: background 1s;
+			transition: border 1s;
 		}
 	}
 	.btn-up:active{
 		.up__img {
 			background-color: #000;
 			border: 1px solid olive;
+			transition: background 1s;
+			transition: border 1s;
 		}
 	}
 }
